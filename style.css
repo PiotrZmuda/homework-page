@@ -3,7 +3,8 @@
 }
 
 .login-form {
-  padding: 100px;
+  width: 528px;
+  padding: 150px;
 }
 
 .input-wrapper {
@@ -11,6 +12,7 @@
   flex-direction: column;
 }
 h1 {
+  padding: 43px 29px 54px 0px;
   font-family: Rubik;
   font-weight: 500;
   font-size: 24px;
@@ -50,4 +52,24 @@ h1 {
   line-height: 17px;
   margin-left: 19px;
   color: #190f27;
+}
+
+.divider-text {
+  font-family: Rubik;
+  line-height: 23px;
+  color: #190f27;
+}
+
+.text-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.divider {
+  background-color: #edebf0;
+  height: 1px;
+  flex: 1px;
+  top: 455px;
+  width: 525px;
 }
