@@ -3,6 +3,9 @@
 } */
 
 .wrapper {
+  width: 1920px;
+  height: 1080px;
+  background: #FFFFFF;
   display: flex;
 }
 h1 {
@@ -93,6 +96,13 @@ h1 {
   color: #64606a;
 }
 
+.value{
+  font-family: Rubik;
+  font-size: 16px;
+  letter-spacing: -0.0571429px;
+  color: #190F27;
+}
+
 .padding {
   background-color: lightgreen;
 }
@@ -126,16 +136,24 @@ h1 {
 }
 
 .checkbox label {
-  top: calc(50% - 22px / 2 - 1px);
-  font-family: Rubik;
-  font-size: 14px;
-  line-height: 22px;
-  color: #64606a;
+    position: relative;
+    top: -4px;
+    left: 4px;
+    font-family: Rubik;
+    font-size: 14px;
+    line-height: 22px;
+    color: #64606a;
 }
 
 .a {
   color: #64606a;
+  border-bottom: 3px solid #284642;
+  /* border-radius: 63px; */
+  text-decoration: none;
+ 
+  
 }
+
 
 /* .button{
 
@@ -175,4 +193,13 @@ h1 {
   font-size: 14px;
   line-height: 22px;
   color: #64606a;
+}
+
+
+/* Medium devices (landscape tablets, 768px and down) */
+@media only screen and (max-width: 768px) {
+.image{
+display: none;
+}
+
 }
