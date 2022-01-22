@@ -1,18 +1,20 @@
-/* body{
-    overflow:hidden
-} */
+body {
+  /* overflow:hidden; */
+  flex-wrap: wrap;
+}
 
 .wrapper {
   width: 1920px;
   height: 1080px;
-  background: #FFFFFF;
+  background: #ffffff;
   display: flex;
 }
 h1 {
-  padding: 43px 29px 54px 0px;
+  padding: 43px 29px 30px 0px;
   font-family: Rubik;
   font-weight: 500;
   font-size: 24px;
+  color: #190f27;
 }
 
 .social-media-button {
@@ -96,11 +98,11 @@ h1 {
   color: #64606a;
 }
 
-.value{
+.value {
   font-family: Rubik;
   font-size: 16px;
   letter-spacing: -0.0571429px;
-  color: #190F27;
+  color: #190f27;
 }
 
 .padding {
@@ -136,13 +138,13 @@ h1 {
 }
 
 .checkbox label {
-    position: relative;
-    top: -4px;
-    left: 4px;
-    font-family: Rubik;
-    font-size: 14px;
-    line-height: 22px;
-    color: #64606a;
+  position: relative;
+  top: -4px;
+  left: 4px;
+  font-family: Rubik;
+  font-size: 14px;
+  line-height: 22px;
+  color: #64606a;
 }
 
 .a {
@@ -150,10 +152,7 @@ h1 {
   border-bottom: 3px solid #284642;
   /* border-radius: 63px; */
   text-decoration: none;
- 
-  
 }
-
 
 /* .button{
 
@@ -195,11 +194,24 @@ h1 {
   color: #64606a;
 }
 
-
 /* Medium devices (landscape tablets, 768px and down) */
 @media only screen and (max-width: 768px) {
-.image{
-display: none;
-}
+  .name-container {
+    display: flex;
+    flex-direction: column;
+  }
+  #first-name {
+    width: 100%;
+  }
 
+  #last-name {
+    width: 100%;
+  }
+  .wrapper {
+    width: 320vh;
+    /* height: 1080px; */
+    background: #ffffff;
+    display: flex;
+    flex-direction: column-reverse;
+  }
 }
