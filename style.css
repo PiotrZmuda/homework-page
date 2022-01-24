@@ -209,7 +209,6 @@ h1 {
   }
   .wrapper {
     width: 320vh;
-    /* height: 1080px; */
     background: #ffffff;
     display: flex;
     flex-direction: column-reverse;
