@@ -21,7 +21,7 @@
   </head>
   <body>
       <div class="wrapper">
-        <div class="login-section">
+
             <div class="login-form">
               <h1>Zarejestruj się</h1>
               <button class="social-media-button">
@@ -33,40 +33,41 @@
                 <img src="./images/instagram.png" alt="facebook" />
                 <span>Rejestracja przez instagram</span>
               </button>
+              
               <div class="text-divider">
                 <div class="divider"></div>
-                <div class="divider-text">Lub za pomocą maila</div>
+                Lub za pomocą maila
                 <div class="divider"></div>
               </div>
               
-            <div class="name-container">
-                <div class="input-wrapper">
-                  <label for="first-name">First Name</label>
-                  <input id="first-name" type="text" class="value" value="First Name" />
+              <div class="names-container">
+                <div class="names">
+                  <label for="first-name">First Name </label>
+                  <input class="inputs" type="text" placeholder="First Name" />
                 </div>
-                <div class="input-wrapper">
+    
+                <div class="names">
                   <label for="last-name">Last Name</label>
-                  <input id="last-name" type="text" class="value" value="Last Name" />
+                  <input class="inputs" type="text" placeholder="Full Name" />
                 </div>
-            </div>
-               <div class="input-wrapper">
-                <label for="email">Email</label>
-                <input id="email" type="email" class="value" value="Email" />
-                </div>
-                <div class="input-wrapper">
+              </div>
+    
+              <div class="names">
+                <label for="email">Email Address</label>
+                <input class="inputs" type="email" placeholder="Email Address" />
+    
                 <label for="password">Password</label>
-                <input id="password" type="text" class="value" value="Password" />
-                </div>
+                <input class="inputs" type="password" placeholder="Password" />
+              </div>
 
-               <div class="checkbox">
-                  <input type="checkbox" />
-                  <label for="first-name"
-                    >I have read the
-                    <a class="a" href="" >Terrm & Conditions </a>
-                  </label>
-                </div>
+              <div class="terms">
+                <input class="check" type="checkbox" />
+                <span>
+                  I have read the
+                  <a href="" class="grey-text"> Terms & Conditions</a>
+                </span>
+              </div>
 
-                <div class="divider-test"></div>
                 <div class="button">
                   <button class="button-text">Zarejestruj się za darmo</button>
                 </div>
@@ -75,7 +76,7 @@
       
                 <span class="log">
                   Masz już konto??
-                  <a class="a" href="">Zaluguj się</a>
+                  <a class="log-text" href="">Zaluguj się</a>
                 </span>
       
               </div>
@@ -84,13 +85,14 @@
       
             </div>
       
-            <div class="image">
-                <!-- <div style="position: relative; left: 0; top: 0;"></div> -->
-              <img  class="background-image" src="./images/image.png"  alt="background" />
-              <img class="text-image" src="./images/text-image.png" alt="text-image">
+            <div class="image-section">
+              <div class="text">
+                <img src="./images/text-image.png" alt="text-image">
+              </div>
             </div>
-          </div>
+        
         
       </div>
   </body>
 </html>
+
