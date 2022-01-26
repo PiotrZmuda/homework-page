@@ -11,6 +11,11 @@
   color: #190F27;
 }
 
+.buttons{
+  display: flex;
+  flex-direction: column;
+}
+
 .social-media-button{
   height: 50px;
   left: 144px;
@@ -20,7 +25,64 @@
   font-weight: 500;
   font-size: 14px;
   border: 1.5px solid #284642;
- box-sizing: border-box;
- border-radius: 7px;
+  box-sizing: border-box;
+  border-radius: 7px;
 
+}
+
+.text-divider{
+  font-family: Rubik;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: -0.0571429px;
+  padding: 32px 0px 32px 0px;
+
+}
+
+.divider{
+  display: flex;
+  flex: 1;
+  height: 1px;
+  background-color: #edebf0;
+  padding: 0px 10px 0px 50px;
+}
+
+.names-container{
+  display: flex;
+  column-gap: 25px;
+
+}
+
+.names{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.inputs{
+  width: 100%;
+  height: 56px;
+  border: 1px solid #EDEBF0;
+  box-sizing: border-box;
+  border-radius: 7px;
+  font-size: 16px;
+  font-family: Rubik;
+  letter-spacing: -0.0571429px;
+}
+
+label{
+  font-family: Rubik;
+  font-size: 10px;
+  color: #64606A;
+  letter-spacing: 0.333333px;
+  position: relative;
+  top: 10px;
+  left: 10px;
+  padding: 0px 5px 4px 5px;
+  background-color: white;
+  width: fit-content;
+  /* line-height: 20px; */
 }
