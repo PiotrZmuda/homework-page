@@ -16,10 +16,10 @@
   flex-direction: column;
 }
 
+
 .social-media-button{
   height: 50px;
   left: 144px;
-  border: 1.5px solid #284642;
   border-radius: 7px;
   font-family: Rubik;
   font-weight: 500;
@@ -27,7 +27,19 @@
   border: 1.5px solid #284642;
   box-sizing: border-box;
   border-radius: 7px;
+  margin: 15px 0px 0px 0px;
 
+}
+
+.social-media-button img{
+  width: 27px;
+ height: 27px;
+ top: 10000px;
+}
+
+.reg-button{
+  font-size: 14px;
+  padding-bottom: px;
 }
 
 .text-divider{
@@ -85,4 +97,29 @@ label{
   background-color: white;
   width: fit-content;
   /* line-height: 20px; */
+}
+
+.terms {
+  font-family: Rubik;
+  color: #64606a;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  padding-top: 16px;
+  padding-bottom: 26px;
+ color: red;
+}
+
+.terms input{
+  height: 18px;
+  width: 18px;
+  margin-right:12px;
+  cursor: pointer;
+}
+.grey-text {
+  font-family: Rubik;
+  color: #64606a;
+  text-decoration: underline solid #284642;
+  text-decoration-thickness: 3px;
+  text-underline-position: under;
 }
