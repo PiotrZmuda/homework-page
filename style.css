@@ -1,8 +1,15 @@
+body{
+  display: flex;
+  width: 1920px;
+  height: 1080px;
+}
+
 .wrapper{
   display: flex;
   background: #ffffff;
   margin: auto;
 }
+
 
 .h1{
   font-family: Rubik;
@@ -169,4 +176,23 @@ label{
   text-decoration: underline solid #284642;
   text-decoration-thickness: 3px;
   text-underline-position: under;
+}
+
+.image-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 57%;
+  background-image: url(/images/background.png);
+  background-color: rgba(40, 70, 66, 0.6);
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+}
+
+.image-text{
+  width: 30%;
+}
+.image-text img{
+  width:100%;
 }
