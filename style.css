@@ -107,7 +107,6 @@ label{
   font-size: 14px;
   padding-top: 16px;
   padding-bottom: 26px;
- color: red;
 }
 
 .terms input{
@@ -119,6 +118,54 @@ label{
 .grey-text {
   font-family: Rubik;
   color: #64606a;
+  text-decoration: underline solid #284642;
+  text-decoration-thickness: 3px;
+  text-underline-position: under;
+}
+
+.button{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background: #284642;
+  border-radius: 7px;
+}
+
+.text-button{
+    font-family: Rubik;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 21px;
+    text-align: center;
+    color:white;
+    background-color: #284642;
+    background: rgba(0,0,0,0.0);
+    border: none;
+  
+}
+
+.divider-last{
+  display: flex;
+  flex: 1;
+  height: 1px;
+  background-color: #edebf0;
+  margin-block: 14px;
+}
+
+.account{
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  color: #64606A;
+}
+
+.log{
+  font-family: Roboto;
+  font-weight: 500;
+  color: #64606A;
   text-decoration: underline solid #284642;
   text-decoration-thickness: 3px;
   text-underline-position: under;
