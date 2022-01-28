@@ -31,16 +31,18 @@
 .social-media-button{
   height: 50px;
   left: 144px;
-  border-radius: 7px;
   font-family: Rubik;
   font-weight: 500;
   font-size: 14px;
   border: 1.5px solid #284642;
-  box-sizing: border-box;
   border-radius: 7px;
   margin: 15px 0px 0px 0px;
-
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 
 .social-media-button img{
   width: 27px;
@@ -50,7 +52,9 @@
 
 .reg-button{
   font-size: 14px;
-  padding-bottom: px;
+  line-height: 17px;
+  margin-left: 15px;
+  color: #190F27;
 }
 
 .text-divider{
