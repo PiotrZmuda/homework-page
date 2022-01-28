@@ -1,13 +1,17 @@
-body{
-  display: flex;
-  width: 1920px;
-  height: 1080px;
-}
-
 .wrapper{
   display: flex;
-  background: #ffffff;
+  height: 1080px;
   margin: auto;
+}
+
+.login-section{
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: center;
+    background: #ffffff;
+    width: 47%;
+    padding: 18% 7%;
 }
 
 
@@ -138,6 +142,7 @@ label{
   height: 50px;
   background: #284642;
   border-radius: 7px;
+  padding-block: 10px;
 }
 
 .text-button{
@@ -157,8 +162,9 @@ label{
   display: flex;
   flex: 1;
   height: 1px;
-  background-color: #edebf0;
+  background: #EDEBF0;
   margin-block: 14px;
+  padding-bottom: 1px;
 }
 
 .account{
