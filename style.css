@@ -1,34 +1,32 @@
-.wrapper{
+.wrapper {
   display: flex;
   height: 1080px;
   margin: auto;
 }
 
-.login-section{
-    display: flex;
-    box-sizing: border-box;
-    flex-direction: column;
-    justify-content: center;
-    background: #ffffff;
-    width: 47%;
-    padding: 18% 7%;
+.login-section {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: center;
+  background: #ffffff;
+  width: 47%;
+  padding: 18% 7%;
 }
 
-
-.h1{
+.h1 {
   font-family: Rubik;
   font-weight: 500;
   font-size: 24px;
-  color: #190F27;
+  color: #190f27;
 }
 
-.buttons{
+.buttons {
   display: flex;
   flex-direction: column;
 }
 
-
-.social-media-button{
+.social-media-button {
   height: 50px;
   left: 144px;
   font-family: Rubik;
@@ -43,21 +41,20 @@
   align-items: center;
 }
 
-
-.social-media-button img{
+.social-media-button img {
   width: 27px;
- height: 27px;
- top: 10000px;
+  height: 27px;
+  top: 10000px;
 }
 
-.reg-button{
+.reg-button {
   font-size: 14px;
   line-height: 17px;
   margin-left: 15px;
-  color: #190F27;
+  color: #190f27;
 }
 
-.text-divider{
+.text-divider {
   font-family: Rubik;
   display: flex;
   justify-content: center;
@@ -66,10 +63,13 @@
   line-height: 23px;
   letter-spacing: -0.0571429px;
   padding: 32px 0px 32px 0px;
-
 }
 
-.divider{
+.divider-center {
+  padding: 0px 5px 0px 5px;
+}
+
+.divider {
   display: flex;
   flex: 1;
   height: 1px;
@@ -77,22 +77,21 @@
   padding: 0px 10px 0px 50px;
 }
 
-.names-container{
+.names-container {
   display: flex;
   column-gap: 25px;
-
 }
 
-.names{
+.names {
   display: flex;
   flex-direction: column;
   flex: 1;
 }
 
-.inputs{
+.inputs {
   width: 100%;
   height: 56px;
-  border: 1px solid #EDEBF0;
+  border: 1px solid #edebf0;
   box-sizing: border-box;
   border-radius: 7px;
   font-size: 16px;
@@ -100,10 +99,10 @@
   letter-spacing: -0.0571429px;
 }
 
-label{
+label {
   font-family: Rubik;
   font-size: 10px;
-  color: #64606A;
+  color: #64606a;
   letter-spacing: 0.333333px;
   position: relative;
   top: 10px;
@@ -124,10 +123,10 @@ label{
   padding-bottom: 26px;
 }
 
-.terms input{
+.terms input {
   height: 18px;
   width: 18px;
-  margin-right:12px;
+  margin-right: 12px;
   cursor: pointer;
 }
 .grey-text {
@@ -138,7 +137,7 @@ label{
   text-underline-position: under;
 }
 
-.button{
+.button {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -149,46 +148,45 @@ label{
   padding-block: 10px;
 }
 
-.text-button{
-    font-family: Rubik;
-    font-weight: bold;
-    font-size: 15px;
-    line-height: 21px;
-    text-align: center;
-    color:white;
-    background-color: #284642;
-    background: rgba(0,0,0,0.0);
-    border: none;
-  
+.text-button {
+  font-family: Rubik;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 21px;
+  text-align: center;
+  color: white;
+  background-color: #284642;
+  background: rgba(0, 0, 0, 0);
+  border: none;
 }
 
-.divider-last{
+.divider-last {
   display: flex;
   flex: 1;
   height: 1px;
-  background: #EDEBF0;
+  background: #edebf0;
   margin-block: 14px;
   padding-bottom: 1px;
 }
 
-.account{
+.account {
   font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
   line-height: 22px;
-  color: #64606A;
+  color: #64606a;
 }
 
-.log{
+.log {
   font-family: Roboto;
   font-weight: 500;
-  color: #64606A;
+  color: #64606a;
   text-decoration: underline solid #284642;
   text-decoration-thickness: 3px;
   text-underline-position: under;
 }
 
-.image-section{
+.image-section {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -200,9 +198,46 @@ label{
   background-blend-mode: multiply;
 }
 
-.image-text{
+.image-text {
   width: 30%;
 }
-.image-text img{
-  width:100%;
+.image-text img {
+  width: 100%;
+}
+
+/* Medium devices (landscape tablets, 910px and down) */
+@media only screen and (max-width: 910px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+
+  .login-section {
+    width: 100%;
+    padding: 0% 11%;
+  }
+
+  .image-section {
+    background-image: url(/images/image-mobile.png);
+    justify-content: flex-start;
+    width: 100%;
+    height: 590px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 320px and down) */
+@media only screen and (max-width: 320px) {
+  .login-section {
+    width: 100%;
+    padding: 18% 8%;
+  }
+
+  .image-section {
+    height: 240px;
+  }
+
+  .image-section {
+    background-image: url(./images/image-mobile.png);
+  }
 }
